@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;0,900;1,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+section .card .image{
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  padding: 3px;
+  background: gold;
+}
+section .card .image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border 3px solid #000000;
+}
+.card::before{
+  content: "";
+  position: absolute;
+  height: 50%;
+  width: 20%;
+  background: orange;
+  border-radius: 20px 20px 0 0;
+}
+.card .card-content{
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  position: relative;
+  z-index: 100;
+}
+
+h1{
+  padding: 0;
+  margin: 0;
+  font-family: serif;
+  font-size: 35px;
+  font-weight: bolder;
+}
+#p2{
+  margin-left: 70px;
+}
+#p1{
+  color: black;
+}
+.pr{
+  margin-top: 30px;
+  background: white;
+  width: 340px;
+  float:left;
+  display: inline-block;
+  padding: 5pt;
+}
+h3{
+  color: white;
+}
+h1#our_products{
+  text-align: center;
+  color: black;
+}
+h1#shopping{
+  margin-left: 40px;
+  font-size: 49px;
+  margin-top: 0px;
+}
+hr#line{
+  width: 60%;
+}
+h1#big{
+  padding: 0px;
+  color: black;
+  text-shadow: 3px 2px 3px;
+}
+p#p1{
+  padding: 0px;
+  margin: 0px;
+  margin-left: 20px;
+}
+input[type="button"]{
+	background:green;
+  color: white;
+  padding: 8pt;
+  border: none;
+  font-family: serif;
+  font-size: 20px;
+  margin-left: 100px;
+}
+input[type="button"]:hover{
+  transform: scaleX(1.24);
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+img#bg_f{
+  padding: 0px;
+  margin-top: 0px;
+  filter: blur(8px);
+-webkit-filter: blur(8px);
+}

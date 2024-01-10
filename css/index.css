@@ -1,0 +1,47 @@
+div.pgraph{
+  float: right;
+}
+p{
+  padding: 0px;
+  margin: 0px;
+}
+
+p#tilik{
+  font-size: 54px;
+}
+p#tinish{
+  font-size: 24px;
+  font-family: serif;
+}
+a:hover{
+  color: orange;
+}
+.bg button{
+  border: none;
+  align-items: center;
+  padding: 8pt;
+  width: 160px;
+  font-size: 24px;
+  font-family: monospace;
+  background-color: white;
+  margin-left: 60px;
+  color: black;
+}
+.bg button:hover{
+  background-color: black;
+  color: white;
+  transform: scaleX(1.46);
+}
+#login{
+  margin-top: 40px;
+  margin-left: 500px;
+}
+footer{
+  position: fixed;
+  padding: 8pt;
+  background: black;
+  bottom: 0;
+  color: White;
+  text-align: center;
+  width: 100%;
+}
